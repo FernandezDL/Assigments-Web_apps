@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+}
+.main-content{
+    flex: 0 1 75%;
+    text-align: center;
+}
+.sidebar{
+    flex: 0 1 25%;
+    background: #808080;
+   text-align: center;
+}
+
+#editor-panel {
+    flex: 1;
+}
+
+    #editor-panel h2 {
+        margin-top: 0;
+    }
+
+#editor {
+    width: 800px;
+    height: 600px;
+    border-radius: 8px;
+    border: 2px dashed #555;
+    position: relative;
+    background: #808080;
+    overflow: hidden;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background: #070707;
+    position: absolute;
+}
